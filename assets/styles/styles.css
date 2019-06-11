@@ -1,0 +1,29 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    color: white;
+}
+body{
+    background-image: url("../images/beige_paper.png")
+}
+.header-links{
+    display: inline-block;
+}
+.portfolio-images{
+
+}
+.my-image{
+
+}
+.portfolio-buttons{
+
+}
+.name-form{
+
+}
+.email-form{
+
+}
+.message-form{
+    
+}
