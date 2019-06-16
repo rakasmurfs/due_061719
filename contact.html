@@ -1,43 +1,55 @@
 <!DOCTYPE html>
 <html>
     <head>
-          <!---  <link href="assets/styles/reset.css" rel="stylesheet"> -->
+            <link href="assets/styles/reset.css" rel="stylesheet">
             <link href="assets/styles/styles.css" rel="stylesheet">
     </head>
-    <header>
-            <h1 class="header-links">Miguel Wolmers</h1>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
+    <header class="header">
+            <h1 class="inline">Miguel Wolmers</h1>
+            <div class="header-links">
+                <a class="about" href="index.html">About</a>
+                <a class="portfolio" href="portfolio.html">Portfolio</a>
+                <a class="contact" href="contact.html">Contact</a>
+            </div>
     </header>
     <body>
-        <div>
-            <div>
-                <h5>
-                    Name
-                </h5>
-                <input type="text">
+        <div class="wrapper">
+            <div class="main-container">
+                    <h2>
+                        Contact
+                    </h2>
+                <div>
+                    <h5>
+                        Name
+                    </h5>
+                    <input class="name-form" type="text" placeholder="John Smith">
+                </div>
+                <div>
+                    <h5>
+                        Email
+                    </h5>
+                    <input class="email-form" type="text" placeholder="example@gmail.com">
+                </div>
+                <div>
+                    <h5>
+                        Message
+                    </h5>
+                    <textarea class="message-form" type="text">
+
+                    </textarea>
+                </div>
+                <button type="submit">
+                    <strong>Submit</strong>
+                </button>
+                
             </div>
-            <div>
-                <h5>
-                    Email
-                </h5>
-                <input type="text">
-            </div>
-            <div>
-                <h5>
-                    Message
-                </h5>
-                <input type="text">
-            </div>
-            <button type="submit">
-                Submit
-            </button>
         </div>
+        <div class="push"></div>
+        <footer>
+                <p>
+                    Copyright &copy;
+                </p>
+        </footer>
     </body>
-    <footer>
-            <p>
-                Copyright &copy;
-            </p>
-    </footer>
+    
 </html>

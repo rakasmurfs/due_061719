@@ -1,52 +1,50 @@
 <!DOCTYPE html>
 <html>
     <head>
-           <!-- <link href="assets/styles/reset.css" rel="stylesheet"> -->
+            <link href="assets/styles/reset.css" rel="stylesheet"> 
             <link href="assets/styles/styles.css" rel="stylesheet">
     </head>
-    <header>
-            <h1 class="header-links">Miguel Wolmers</h1>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
+    <header class="header">
+            <h1 class="inline">Miguel Wolmers</h1>
+            <div class="header-links">
+                <a class="about" href="index.html">About</a>
+                <a class="portfolio" href="portfolio.html">Portfolio</a>
+                <a class="contact" href="contact.html">Contact</a>
+            </div>
     </header>
     <body>
-        <div>
-            <div>
-                <img src="assets/images/port1.jpg">
-                <div>
-                    <a href="">Hangman</a>
-                </div>
-            </div>
-            <div>
-                <img src="assets/images/port2.jpg">
-                <div>
-                    <a href="">RPG Game</a>
-                </div>
-            </div>
-            <div>
-                <img src="assets/images/port3.jpg">
-                <div>
-                    <a href="">Rutgers Info Widget</a>
-                </div>
-            </div>
-            <div>
-                <img src="assets/images/port4.jpg">
-                <div>
-                    <a href="">Trivia Game</a>
-                </div>
-            </div>
-            <div>
-                <img src="assets/images/port5.jpg">
-                <div>
-                    <a href="">RPG Game</a>
-                </div>
+        <div class="wrapper">
+            <div class="main-container">
+                    <h2>
+                        Portfolio
+                    </h2>
+                    <div class="img-wrap inline">
+                        <img class="portfolio-images" src="assets/images/port5.jpg">
+                            <a class="img-description" href=""><strong>Rock Paper Scissors</strong></a>
+                    </div>
+                    <div class="img-wrap inline">
+                        <img class="portfolio-images" src="assets/images/port1.jpg">
+                            <a class="img-description" href=""><strong>Rutgers Info Widget</strong></a>
+                    </div>
+                    <div class="img-wrap inline">
+                        <img class="portfolio-images" src="assets/images/port2.jpg">
+                            <a class="img-description" href=""><strong>RPG Game</strong></a>
+                    </div>
+                    <div class="img-wrap inline">
+                        <img class="portfolio-images" src="assets/images/port3.jpg">
+                            <a class="img-description" href=""><strong>Trivia Game</strong></a>
+                    </div>
+                    <div class="img-wrap">
+                        <img class="portfolio-images" src="assets/images/port4.jpg">
+                            <a class="img-description" href=""><strong>Hangman</strong></a>
+                    </div>
             </div>
         </div>
-    </body>
-    <footer>
-            <p>
-                Copyright &copy;
-            </p>
-    </footer>
+        <div class="push"></div>
+        <footer>
+                <p>
+                    Copyright &copy;
+                </p>
+        </footer>        
+    </body>      
 </html>

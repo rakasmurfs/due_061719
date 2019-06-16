@@ -1,29 +1,194 @@
+span{
+      margin:0px;
+      padding: 0px;
+      height: 0px;
+      width: 0px;
+  }
+h3{
+    margin: 0px;
+    padding: 0px;
+    height: 0px;
+    width: 0px;
+}
+body, html{
+    background-image: url("../images/oriental.png");
+    height: 100%;
+    padding: 0px;
+    width: 100%;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+a:visited { text-decoration: none;  }
+a:hover { text-decoration: none;  }
+a:focus { text-decoration: none;  }
+a:hover, a:active { text-decoration: none;  }
+p{
+    margin: 10px 48px 10px 48px;
+    font-size: 1em;
+    line-height: 1.7em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 100, 100);
+
+}
+.header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    height: 73px;
+    background-color: #FFF;
+    width: 100%;
+    border-bottom: 2px solid;
+    border-color: #CCC;
+}
+.inline{
+    display:inline-block;
+}
+.header-links{
+   /* position: fixed;
+    top: 0px;
+    right: 0px; */
+    z-index: 10;
+    float: right;
+    margin-right: 16.8%;
+    color: rgb(100,100,100);
+    font-size: 1.10em;
+    margin-top: 30px;
+}
+.about{
+    color: rgb(100,100,100);
+    border-right: 2px solid rgb(145, 145, 145);
+    padding-right: 8px;
+}
+.portfolio{
+    color: rgb(100,100,100);
+    padding: 0px 8px 0px 8px;
+}
+.contact{
+    color: rgb(100,100,100);
+    border-left: 2px solid rgb(145, 145, 145);
+    padding-left: 8px;
+}
+.wrapper{
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+.main-container{
+    margin: auto;
+    background-color: white;
+    width: 960px;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    padding-bottom: 48px;
+}
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #4aaaa5;
     color: white;
+    font-size: 2em;
+    line-height: 1.05em;
+    padding: 20px 20px 20px 20px;
+    margin-left: 16.8%;
 }
-body{
-    background-image: url("../images/beige_paper.png")
+h2{
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid;
+    border-color: #CCC;
+    margin: 0px 38px 0px 48px;
+    font-size: 1.8em;
+    padding: 14px 0px 14px 0px;
 }
-.header-links{
-    display: inline-block;
+h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(105, 105, 105);
+    font-size: 16px;
+    margin: 15px 48px 0px 48px;
 }
 .portfolio-images{
-
+    width: 240px; 
+    height: 180px;
+    /*margin: 50px 0px 10px 50px; */
+}
+.last-image{
+    /*margin: 50px 0px 50px 50px;*/
 }
 .my-image{
+    width: 150px;
+    height: 150px;
+    margin: 10px 48px 10px 48px;
 
+}
+.float-right{
+    text-align: right;
 }
 .portfolio-buttons{
 
 }
 .name-form{
-
+    width: 864px;
+    padding: 5px;
+    margin: 10px 48px 10px 48px;
 }
 .email-form{
-
+    width: 864px;
+    padding: 5px;
+    margin: 10px 48px 10px 48px;
 }
 .message-form{
-    
+    width: 864px;
+    height: 150px;
+    padding: 5px;
+    margin: 10px 48px 10px 48px;
 }
+button{
+    font-size: 16px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    border-radius: 10px;
+    margin: 10px 48px 10px 48px;
+}
+.push{
+    height: 50px;
+}
+footer{
+    background-color: rgb(145, 145, 145);
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    border-top: 8px solid #4aaaa5
+}
+.footer-padding{
+}
+.img-wrap{
+    position: relative;
+    width: 240px;
+    height: 180px;
+    margin: 10px 48px 10px 48px;
+}
+.img-description{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #4aaaa5;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+    padding: 24px 0 24px 0;
+    width: 240px;
+    text-align: center;
+    font-size: 20px;
+}
+.img-wrap:hover .img-description {
+    visibility: visible;
+    opacity: 1;
+  }
